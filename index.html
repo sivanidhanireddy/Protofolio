@@ -96,6 +96,19 @@
             padding: 10px;
             border-left: 5px solid #00acc1;
         }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
     </style>
 </head>
 <body>
@@ -108,6 +121,7 @@
         <a href="#about">About</a>
         <a href="#internships">Internships</a>
         <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
         <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
     </nav>
@@ -119,10 +133,16 @@
 
     <section id="internships">
         <h2>Internships</h2>
-        <ul>
-            <li><strong>ISRO – Raw Material Management Inventory</strong> <br> 6-week internship focused on developing inventory tracking and management systems.</li>
-            <li><strong>The Sparks Foundation – Web Development</strong> <br> Internship in 2024, primarily working with HTML, CSS, and JavaScript.</li>
-        </ul>
+        <div class="card">
+            <h3>ISRO – Raw Material Management Inventory</h3>
+            <p><strong>Duration:</strong> 6 weeks</p>
+            <p>Worked on optimizing inventory tracking and management systems using MySQL and Python. Gained experience in managing raw material data, setting up databases, and improving operational efficiency.</p>
+        </div>
+        <div class="card">
+            <h3>The Sparks Foundation – Web Development</h3>
+            <p><strong>Duration:</strong> 1 month (2024)</p>
+            <p>Focused on building responsive and dynamic web pages using HTML, CSS, and JavaScript. Completed a variety of front-end development tasks and small projects.</p>
+        </div>
     </section>
 
     <section id="skills">
@@ -133,6 +153,18 @@
             <p><strong>Data Analysis & Visualization:</strong> Excel, Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau</p>
             <p><strong>Databases:</strong> MySQL, MongoDB, DBMS</p>
             <p><strong>Tools & Technologies:</strong> Visual Studio Code, Git</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Raw Material Management System</h3>
+            <p>Developed during my internship at ISRO. Designed a prototype system to manage raw materials efficiently, track stock levels, and ensure minimal wastage. Implemented using Python and MySQL.</p>
+        </div>
+        <div class="card">
+            <h3>Voice Command Robot</h3>
+            <p>Built a robot that responds to voice commands using speech recognition modules and Arduino. Integrated Python scripts for speech-to-text conversion and motor control.</p>
         </div>
     </section>
 
@@ -155,3 +187,4 @@
     </footer>
 </body>
 </html>
+
